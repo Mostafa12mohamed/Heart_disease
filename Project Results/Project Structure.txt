@@ -1,0 +1,13 @@
+heart-stroke-prediction/
+│
+├── app.py                # Flask API main file
+├── utils.py              # Helper functions for data wrangling/preprocessing
+├── requirements.txt      # List of project dependencies
+│
+├── models/               # Directory for saved model and transformers
+│   ├── rf_model.pkl      # Your trained Random Forest model
+│   ├── scaler.pkl        # Saved StandardScaler object
+│   ├── imputer.pkl       # Saved KNNImputer object
+│   └── encoder.pkl       # Saved OrdinalEncoder for education
+│
+└── data/                 # (Optional) Store your heart_disease.csv here

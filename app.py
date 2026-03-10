@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 import joblib
+import os
+
 from utils import preprocess_input
 
 app = Flask(__name__)
